@@ -1,0 +1,70 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+#header-nav {
+  background-color: lightgray;
+  border-radius: 0;
+  border: 2px solid black;
+  margin-bottom: 0;
+}
+#header-nav-container {
+  margin-left: 25px;
+}
+.navbar-brand {
+  padding-left: 0;
+}
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: .75;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list p {
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+#nav-list li {
+  background-color: darkgray;
+}
+#nav-list hr {
+  margin: 0;
+  border-top: 2px solid black;
+}
+
+/* Heading */
+#heading h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* Main content */
+#main-content {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+#tiles h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#tiles p {
+  font-weight: bold;
+}
+#tiles div {
+  background-color: lightgray;
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav {
+    border: 3px solid black;
+  }
+}
